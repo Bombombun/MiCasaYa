@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    tools:context=".ResultadosActivity">
+    tools:context=".ui.Resultados.ResultadosActivity">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -69,6 +69,65 @@
             android:paddingVertical="12dp"
             android:paddingHorizontal="24dp"
             android:layout_marginBottom="24dp" />
+
+        <!-- Calculadora Estructural -->
+        <TextView
+            android:id="@+id/textViewCalcTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calculadora Estructural"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginTop="24dp"
+            android:textColor="@color/black" />
+
+        <EditText
+            android:id="@+id/editTextLargo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Largo del terreno (m)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextAncho"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ancho del terreno (m)"
+            android:inputType="numberDecimal"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextHabitaciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de habitaciones"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <EditText
+            android:id="@+id/editTextPisos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Número de pisos"
+            android:inputType="number"
+            android:layout_marginTop="8dp" />
+
+        <Button
+            android:id="@+id/btnCalcularEstructura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Calcular Estructura"
+            android:layout_marginTop="16dp" />
+
+        <TextView
+            android:id="@+id/textViewResultadoEstructura"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Resultado estructural aparecerá aquí"
+            android:textSize="16sp"
+            android:layout_marginTop="12dp"
+            android:textColor="@color/black" />
 
     </LinearLayout>
 </ScrollView>

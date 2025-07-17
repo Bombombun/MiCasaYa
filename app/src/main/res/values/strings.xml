@@ -1,9 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Opciones para el riesgo sísmico -->
     <string-array name="seismic_risk_options">
         <item>Bajo</item>
         <item>Medio</item>
         <item>Alto</item>
         <item>No definido / Desconozco</item>
     </string-array>
+
+    <!-- Strings necesarios para la CalculadoraActivity -->
+    <string name="error_campos_incompletos">Por favor, completa todos los campos.</string>
+    <string name="error_valores_positivos">Todos los valores deben ser mayores que cero.</string>
+    <string name="resultado_calculo">Resultado del cálculo: %1$s</string>
+    <string name="titulo_calculadora">Calculadora estructural</string>
+    <string name="btn_calcular">Calcular</string>
+
+    <!-- CORREGIDOS: -->
+    <string name="label_columnas">Número de columnas: %1$d</string>
+    <string name="label_vigas">Número de vigas: %1$d</string>
+    <string name="label_cimentacion">Tipo de cimentación: %1$s</string>
+
+    <string name="error_numeros_invalidos">Por favor, ingresa solo números válidos.</string>
+    <string name="error_inesperado">Ocurrió un error inesperado.</string>
 </resources>
