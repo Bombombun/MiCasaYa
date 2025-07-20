@@ -5,6 +5,7 @@
 ## Características principales
 
 - Registro e inicio de sesión de usuarios
+- Georeferenciación del proyecto
 - Calculadora estructural:
   - Cálculo del número aproximado de columnas
   - Cálculo de vigas horizontales y verticales
@@ -28,13 +29,13 @@ Con estos datos, la app calcula:
 - Número de columnas (con separación promedio de 3 metros)
 - Número de vigas necesarias
 - Tipo de cimentación sugerida (basada en la cantidad de pisos)
-- Recomendación adicional generada mediante una solicitud a una IA (opcional)
+- Recomendación adicional generada mediante una solicitud a una IA
 
 ## Tecnologías utilizadas
 
 - Android Studio
 - Lenguaje Java
-- Maps api (para georeferenciar el proyecto
+- Maps api (para georeferenciar el proyecto)
 - Gemini API (para recomendaciones)
 - Vista personalizada para representar planos estructurales
 
@@ -43,7 +44,7 @@ Con estos datos, la app calcula:
 1. Clona o descarga este repositorio en tu equipo.
 2. Abre el proyecto en Android Studio.
 3. Conecta un dispositivo físico o ejecuta un emulador.
-4. Haz clic en el botón "Run" (▶) en Android Studio.
+4. Haz clic en el botón "Run" en Android Studio.
 
 ## Requisitos
 
